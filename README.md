@@ -6,12 +6,12 @@ This project analyzes the performance of a Moving Average (MA) model on stock pr
 
 The Moving Average (MA) model is used to capture the temporal dependencies in a time series. It is expressed as:
 
-\[ x[t] = \mu + \epsilon[t] + \theta_1 \epsilon[t-1] + \theta_2 \epsilon[t-2] + ... + \theta_q \epsilon[t-q] \]
+$$ x[t] = \mu + \epsilon[t] + \theta_1 \epsilon[t-1] + \theta_2 \epsilon[t-2] + ... + \theta_q \epsilon[t-q] $$
 
 where:
-- \( \epsilon[t] \) are the white noise errors
-- \( \theta_i \) are the parameters of the model
-- \( q \) is the order of the MA model
+- $\epsilon[t]$ are the white noise errors
+- $\theta_i$ are the parameters of the model
+- $q$ is the order of the MA model
 
 ## Implementation
 
