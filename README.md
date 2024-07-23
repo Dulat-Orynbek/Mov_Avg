@@ -34,4 +34,4 @@ The analysis shows that while the Moving Average model provides some insights, t
 
 ## Files
 
-- `moving_average_analysis.R`: The R script containing the implementation of the MA model and residual analysis.
+- `1.R`: The R script containing the implementation of the MA model and residual analysis.
